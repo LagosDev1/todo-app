@@ -15,11 +15,12 @@ const Form= ({todo,setTodo,todoList,setTodoList})=> {
 <<<<<<< HEAD
         if (todo===""){  
              return null;
+            alert("Cannot add empty field")
             }
 =======
          if (todo===""){
             return null;
-            
+            alert("Cannot add empty field")
         }
         
 >>>>>>> dad2d920f6fb62d98c8bfae2c7938ef1f37f49ac

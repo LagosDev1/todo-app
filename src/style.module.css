@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    font-family:sans-serif
+}
+
+.header{
+    background-color: royalblue;
+    height:50px;
+    font-size: 2em;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.todoform{
+    width:100%;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.todoinput{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+    font-size: 1.5em;
+    outline: none;
+    text-align: center;
+}
+
+.todobutton{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: rgb(247, 164, 226);
+    color: white;
+    font-size: 1.3em;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.todobutton:hover{
+    background-color: rgb(247, 95, 209);
+    color: white;
+    font-size: 1.3em;
+    border-radius: 10px ;
+    cursor: pointer;
+    border: 2px solid white;
+    text-transform: uppercase;
+}
+
+.todoitem{
+    margin:auto;
+    border: 2px solid whitesmoke;
+    padding:20px;
+    margin-top: 20px;
+}
+
+.todoname{
+    font-size: large;
+}
+
+.deletebutton{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: rgb(247, 164, 226);
+    color: white;
+    font-size: 1.3em;
+    border-radius: 10px ;
+    cursor: pointer;
+
+}
+
+.deletebutton:hover{
+    background-color: rgb(247, 95, 209);
+    color: white;
+    font-size: 1.3em;
+    border-radius: 10px ;
+    cursor: pointer;
+    border: 2px solid white;
+    text-transform: uppercase;
+}
+
+/* Small screens */
+@media (max-width: 576px) {
+    .header {
+      font-size: 1.5em;
+      padding: 10px;
+    }
+  
+    .todoinput {
+      font-size: 1em;
+      height: 40px;
+      padding: 5px;
+    }
+  
+    .todobutton {
+      font-size: 1.1em;
+      height: 40px;
+      margin-top: 10px;
+    }
+  
+    .todoitem {
+      padding: 10px;
+      margin-top: 10px;
+    }
+  
+    .deletebutton {
+      font-size: 1.1em;
+      height: 40px;
+    }
+  }
+  
+  /* Medium screens */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .header {
+      font-size: 1.8em;
+      padding: 15px;
+    }
+  
+    .todoinput {
+      font-size: 1.2em;
+      height: 45px;
+      padding: 8px;
+    }
+  
+    .todobutton {
+      font-size: 1.2em;
+      height: 45px;
+      margin-top: 15px;
+    }
+  
+    .todoitem {
+      padding: 15px;
+      margin-top: 15px;
+    }
+  
+    .deletebutton {
+      font-size: 1.2em;
+      height: 45px;
+    }
+  }
+  
+  /* Large screens */
+  @media (min-width: 769px) {
+    .header {
+      font-size: 2em;
+      padding: 20px;
+    }
+  
+    .todoinput {
+      font-size: 1.5em;
+      height: 50px;
+      padding: 10px;
+    }
+  
+    .todobutton {
+      font-size: 1.3em;
+      height: 50px;
+      margin-top: 20px;
+    }
+  
+    .todoitem {
+      padding: 20px;
+      margin-top: 20px;
+    }
+  
+    .deletebutton {
+      font-size: 1.3em;
+      height: 50px;
+    }
+  }
+  

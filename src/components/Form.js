@@ -10,6 +10,11 @@ const Form= ({todo,setTodo,todoList,setTodoList})=> {
     }
 
     const handleSubmit = (event) =>{
+         if (todo===""){
+            return null;
+            
+        }
+        
         event.preventDefault();
         setTodoList([...todoList,{name:todo, id: shortid.generate()}]);
         console.log(todoList);
